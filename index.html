@@ -121,14 +121,17 @@
                 </div>
                 
                 <div class="hidden md:flex items-center gap-x-8 text-sm font-medium">
-                    <a href="#perfil" class="nav-link text-zinc-600 hover:text-zinc-900">Perfil</a>
-                    <a href="#investigacion" class="nav-link text-zinc-600 hover:text-zinc-900">Investigación</a>
-                    <a href="#publicaciones" class="nav-link text-zinc-600 hover:text-zinc-900">Publicaciones</a>
-                    <a href="#docencia" class="nav-link text-zinc-600 hover:text-zinc-900">Docencia</a>
-                    <a href="#perfiles" class="nav-link text-zinc-600 hover:text-zinc-900">Contacto</a>
+                    <a href="#perfil" class="nav-link text-zinc-600 hover:text-zinc-900" data-en="Profile">Perfil</a>
+                    <a href="#investigacion" class="nav-link text-zinc-600 hover:text-zinc-900" data-en="Research">Investigación</a>
+                    <a href="#publicaciones" class="nav-link text-zinc-600 hover:text-zinc-900" data-en="Publications">Publicaciones</a>
+                    <a href="#docencia" class="nav-link text-zinc-600 hover:text-zinc-900" data-en="Teaching">Docencia</a>
+                    <a href="#perfiles" class="nav-link text-zinc-600 hover:text-zinc-900" data-en="Contact">Contacto</a>
                 </div>
                 
                 <div class="flex items-center gap-x-3">
+                    <button id="lang-toggle" class="inline-flex items-center gap-x-1.5 px-3 py-1.5 text-xs font-semibold border border-zinc-200 hover:border-zinc-300 rounded-full transition-colors" aria-label="Switch language / Cambiar idioma">
+                        <i class="fa-solid fa-globe text-zinc-400"></i> EN
+                    </button>
                     <a href="https://orcid.org/0000-0003-2972-7142" target="_blank" 
                        class="inline-flex items-center gap-x-2 px-4 py-1.5 text-xs font-medium border border-zinc-200 hover:border-zinc-300 rounded-full transition-colors">
                         <i class="fa-brands fa-orcid text-[#a6ce39]"></i>
@@ -143,33 +146,33 @@
     <header class="max-w-5xl mx-auto px-6 pt-16 pb-12">
         <div class="max-w-3xl">
             <div class="flex items-center gap-x-4 mb-6">
-                <div class="px-3 py-1 bg-zinc-100 text-zinc-600 text-xs font-medium tracking-[1.5px] rounded-full">PH.D. EN HUMANIDADES</div>
-                <div class="px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-medium tracking-[1.5px] rounded-full">INVESTIGADOR ASOCIADO MINCIENCIAS</div>
+                <div class="px-3 py-1 bg-zinc-100 text-zinc-600 text-xs font-medium tracking-[1.5px] rounded-full" data-en="PH.D. IN HUMANITIES">PH.D. EN HUMANIDADES</div>
+                <div class="px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-medium tracking-[1.5px] rounded-full" data-en="ASSOCIATE RESEARCHER, MINCIENCIAS">INVESTIGADOR ASOCIADO MINCIENCIAS</div>
             </div>
 
             <h1 class="text-6xl md:text-7xl font-semibold tracking-tighter heading-serif leading-none mb-4">
                 Gustavo Adolfo<br>Arteaga Botero
             </h1>
 
-            <p class="text-2xl text-zinc-600 tracking-tight mb-8">
+            <p class="text-2xl text-zinc-600 tracking-tight mb-8" data-en="Architect Ph.D. • Full Professor">
                 Arquitecto Ph.D. • Docente Titular
             </p>
 
             <div class="flex flex-wrap items-center gap-x-3 text-sm mb-8">
                 <div class="flex items-center gap-x-2">
                     <i class="fa-solid fa-university text-zinc-400 w-4"></i>
-                    <span class="font-medium">Profesor Titular • Universidad de San Buenaventura Cali</span>
+                    <span class="font-medium" data-en="Full Professor • Universidad de San Buenaventura Cali">Profesor Titular • Universidad de San Buenaventura Cali</span>
                 </div>
             </div>
 
             <div class="flex flex-wrap items-center gap-x-3 gap-y-3">
                 <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001401677" target="_blank"
                    class="inline-flex items-center gap-x-2 px-5 py-2.5 bg-zinc-900 text-white text-sm font-medium rounded-full hover:bg-zinc-700 transition-colors">
-                    <i class="fa-solid fa-file-arrow-down"></i> Ver CV completo (CvLAC)
+                    <i class="fa-solid fa-file-arrow-down"></i> <span data-en="View full CV (CvLAC)">Ver CV completo (CvLAC)</span>
                 </a>
                 <a href="mailto:gustavo.arteaga@gmail.com"
                    class="inline-flex items-center gap-x-2 px-5 py-2.5 border border-zinc-300 text-zinc-700 text-sm font-medium rounded-full hover:border-zinc-400 hover:bg-zinc-50 transition-colors">
-                    <i class="fa-solid fa-envelope"></i> Escríbeme
+                    <i class="fa-solid fa-envelope"></i> <span data-en="Get in touch">Escríbeme</span>
                 </a>
             </div>
         </div>
@@ -179,7 +182,7 @@
     <section id="perfiles" class="max-w-5xl mx-auto px-6 pb-12">
         <div class="max-w-3xl">
             <h2 class="section-header mb-6 flex items-center gap-x-3">
-                <span>Perfiles académicos</span>
+                <span data-en="Academic profiles">Perfiles académicos</span>
                 <div class="flex-1 minimal-divider"></div>
             </h2>
             
@@ -205,7 +208,7 @@
                     </div>
                     <div class="flex-1 min-w-0">
                         <div class="font-semibold tracking-tight">CvLAC</div>
-                        <div class="text-xs text-zinc-500">Minciencias • Investigador Asociado</div>
+                        <div class="text-xs text-zinc-500" data-en="Minciencias • Associate Researcher">Minciencias • Investigador Asociado</div>
                     </div>
                     <i class="fa-solid fa-external-link-alt text-zinc-400 group-hover:text-zinc-600 transition-colors"></i>
                 </a>
@@ -218,7 +221,7 @@
                     </div>
                     <div class="flex-1 min-w-0">
                         <div class="font-semibold tracking-tight">Google Scholar</div>
-                        <div class="text-xs text-zinc-500">Citas • Publicaciones indexadas</div>
+                        <div class="text-xs text-zinc-500" data-en="Citations • Indexed publications">Citas • Publicaciones indexadas</div>
                     </div>
                     <i class="fa-solid fa-external-link-alt text-zinc-400 group-hover:text-zinc-600 transition-colors"></i>
                 </a>
@@ -231,7 +234,7 @@
                     </div>
                     <div class="flex-1 min-w-0">
                         <div class="font-semibold tracking-tight">ResearchGate</div>
-                        <div class="text-xs text-zinc-500">39+ publicaciones • Full Professor</div>
+                        <div class="text-xs text-zinc-500" data-en="39+ publications • Full Professor">39+ publicaciones • Full Professor</div>
                     </div>
                     <i class="fa-solid fa-external-link-alt text-zinc-400 group-hover:text-zinc-600 transition-colors"></i>
                 </a>
@@ -243,7 +246,7 @@
                         <i class="fa-solid fa-envelope text-xl"></i>
                     </div>
                     <div class="flex-1 min-w-0">
-                        <div class="font-semibold tracking-tight">Correo electrónico</div>
+                        <div class="font-semibold tracking-tight" data-en="Email">Correo electrónico</div>
                         <div class="text-xs text-zinc-500 font-mono">gustavo.arteaga@gmail.com</div>
                     </div>
                     <i class="fa-solid fa-paper-plane text-zinc-400 group-hover:text-zinc-600 transition-colors"></i>
@@ -256,38 +259,38 @@
     <section class="max-w-5xl mx-auto px-6 pb-16">
         <div class="max-w-3xl">
             <h2 class="section-header mb-6 flex items-center gap-x-3">
-                <span>Impacto y reconocimiento</span>
+                <span data-en="Impact and recognition">Impacto y reconocimiento</span>
                 <div class="flex-1 minimal-divider"></div>
             </h2>
 
             <div class="grid sm:grid-cols-2 gap-x-8 gap-y-4 text-sm">
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div><strong>Investigador Asociado</strong> – Minciencias (CvLAC)</div>
+                    <div data-en="<strong>Associate Researcher</strong> – Minciencias (CvLAC)"><strong>Investigador Asociado</strong> – Minciencias (CvLAC)</div>
                 </div>
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div><strong>+39 publicaciones</strong> indexadas (ResearchGate)</div>
+                    <div data-en="<strong>39+ indexed publications</strong> (ResearchGate)"><strong>+39 publicaciones</strong> indexadas (ResearchGate)</div>
                 </div>
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div><strong>+40 tesis dirigidas</strong> (pregrado y maestría)</div>
+                    <div data-en="<strong>40+ supervised theses</strong> (undergraduate, master's, and doctoral)"><strong>+40 tesis dirigidas</strong> (pregrado, maestría y doctorado)</div>
                 </div>
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div><strong>Profesor destacado 2023</strong> – Pontificia Universidad Javeriana</div>
+                    <div data-en="<strong>Outstanding Professor 2023</strong> – Pontificia Universidad Javeriana"><strong>Profesor destacado 2023</strong> – Pontificia Universidad Javeriana</div>
                 </div>
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div>Experto Nacional en prospectiva estratégica – <strong>Accefyn</strong></div>
+                    <div data-en="National Expert in strategic foresight – <strong>Accefyn</strong>">Experto Nacional en prospectiva estratégica – <strong>Accefyn</strong></div>
                 </div>
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div>Una de las publicaciones más citadas supera las <strong>11 citas</strong></div>
+                    <div data-en="One of the most cited publications has more than <strong>11 citations</strong>">Una de las publicaciones más citadas supera las <strong>11 citas</strong></div>
                 </div>
                 <div class="flex items-start gap-x-3">
                     <div class="mt-1 text-indigo-600">●</div>
-                    <div><strong>4 nuevas publicaciones en 2024</strong>: artículo, libro y dos capítulos en congresos internacionales</div>
+                    <div data-en="<strong>4 new publications in 2024</strong>: an article, a book, and two conference chapters"><strong>4 nuevas publicaciones en 2024</strong>: artículo, libro y dos capítulos en congresos internacionales</div>
                 </div>
             </div>
         </div>
@@ -297,16 +300,16 @@
     <section id="perfil" class="max-w-5xl mx-auto px-6 pb-16">
         <div class="max-w-3xl">
             <h2 class="section-header mb-6 flex items-center gap-x-3">
-                <span>Perfil</span>
+                <span data-en="Profile">Perfil</span>
                 <div class="flex-1 minimal-divider"></div>
             </h2>
             
             <div class="academic-text space-y-5 text-[15.2px]">
-                <p>Arquitecto colombiano con doctorado en Humanidades. Mi trabajo articula la planificación y gestión territorial con el análisis de datos aplicados al hábitat, la morfología urbana y la historia urbana, con un énfasis particular en los procesos de poblamiento afrocolombiano y cimarron, la arquitectura vernácula como objeto técnico y las dinámicas territoriales del suroccidente colombiano.</p>
+                <p data-en="Colombian architect with a Ph.D. in Humanities. My work links territorial planning and management with data analysis applied to habitat, urban morphology, and urban history, with a particular emphasis on Afro-Colombian and maroon (cimarrón) settlement processes, vernacular architecture as a technical object, and the territorial dynamics of southwestern Colombia.">Arquitecto colombiano con doctorado en Humanidades. Mi trabajo articula la planificación y gestión territorial con el análisis de datos aplicados al hábitat, la morfología urbana y la historia urbana, con un énfasis particular en los procesos de poblamiento afrocolombiano y cimarron, la arquitectura vernácula como objeto técnico y las dinámicas territoriales del suroccidente colombiano.</p>
                 
-                <p>Soy <strong>Profesor Titular de tiempo completo</strong> en la Facultad de Arquitectura, Arte y Diseño de la <strong>Universidad de San Buenaventura Cali</strong>. Mi labor combina docencia de pregrado y posgrado, dirección de tesis e investigación con fuentes primarias.</p>
+                <p data-en="I am a <strong>full-time Full Professor</strong> at the Faculty of Architecture, Art and Design of the <strong>Universidad de San Buenaventura Cali</strong>. My work combines undergraduate and graduate teaching, thesis supervision, and primary-source research.">Soy <strong>Profesor Titular de tiempo completo</strong> en la Facultad de Arquitectura, Arte y Diseño de la <strong>Universidad de San Buenaventura Cali</strong>. Mi labor combina docencia de pregrado y posgrado, dirección de tesis e investigación con fuentes primarias.</p>
                 
-                <p>Mi investigación reciente explora la arquitectura vernácula en contextos de haciendas coloniales productivas, los paisajes mineros y los sistemas técnicos asociados al poblamiento cimarron en la cuenca del río Cauca (siglos XVI-XIX), así como las transformaciones urbanas contemporáneas, la informalidad y la movilidad sostenible en ciudades intermedias.</p>
+                <p data-en="My recent research explores vernacular architecture in the context of productive colonial estates, mining landscapes, and technical systems associated with maroon settlement in the Cauca River basin (16th-19th centuries), as well as contemporary urban transformations, informality, and sustainable mobility in intermediate cities.">Mi investigación reciente explora la arquitectura vernácula en contextos de haciendas coloniales productivas, los paisajes mineros y los sistemas técnicos asociados al poblamiento cimarron en la cuenca del río Cauca (siglos XVI-XIX), así como las transformaciones urbanas contemporáneas, la informalidad y la movilidad sostenible en ciudades intermedias.</p>
             </div>
         </div>
     </section>
@@ -315,36 +318,36 @@
     <section class="max-w-5xl mx-auto px-6 pb-16">
         <div class="max-w-3xl">
             <h2 class="section-header mb-6 flex items-center gap-x-3">
-                <span>Formación académica</span>
+                <span data-en="Academic background">Formación académica</span>
                 <div class="flex-1 minimal-divider"></div>
             </h2>
             
             <div class="grid md:grid-cols-2 gap-x-8 gap-y-6 text-sm">
                 <div>
-                    <div class="font-semibold tracking-tight">Doctor en Humanidades</div>
+                    <div class="font-semibold tracking-tight" data-en="Ph.D. in Humanities">Doctor en Humanidades</div>
                     <div class="text-zinc-600">Universidad del Valle – Sede Cali (2022)</div>
-                    <div class="text-xs text-zinc-500 mt-1">Tesis: La influencia de los pobladores africanos en las comunidades mineras de la cuenca media y sur del río Cauca</div>
+                    <div class="text-xs text-zinc-500 mt-1" data-en="Dissertation: The influence of African settlers on mining communities of the middle and lower Cauca River basin">Tesis: La influencia de los pobladores africanos en las comunidades mineras de la cuenca media y sur del río Cauca</div>
                 </div>
                 
                 <div>
-                    <div class="font-semibold tracking-tight">Master en Diseño Arquitectónico Avanzado</div>
+                    <div class="font-semibold tracking-tight" data-en="Master's in Advanced Architectural Design">Master en Diseño Arquitectónico Avanzado</div>
                     <div class="text-zinc-600">Universidad de Buenos Aires (2013)</div>
-                    <div class="text-xs text-zinc-500 mt-1">Tesis: “Parque Intermodal”. Espacio público híbrido – Operaciones de integración programática e infraestructural</div>
+                    <div class="text-xs text-zinc-500 mt-1" data-en="Thesis: “Intermodal Park.” Hybrid public space – Programmatic and infrastructural integration operations">Tesis: “Parque Intermodal”. Espacio público híbrido – Operaciones de integración programática e infraestructural</div>
                 </div>
                 
                 <div>
-                    <div class="font-semibold tracking-tight">Maestría en Construcción</div>
+                    <div class="font-semibold tracking-tight" data-en="Master's in Construction">Maestría en Construcción</div>
                     <div class="text-zinc-600">Universidad Nacional de Colombia (2016)</div>
-                    <div class="text-xs text-zinc-500 mt-1">Tesis: Observatorio de la vivienda urbana con parámetros de interés constructivos en Manizales, Caldas</div>
+                    <div class="text-xs text-zinc-500 mt-1" data-en="Thesis: Observatory of urban housing with construction-relevant parameters in Manizales, Caldas">Tesis: Observatorio de la vivienda urbana con parámetros de interés constructivos en Manizales, Caldas</div>
                 </div>
                 
                 <div>
-                    <div class="font-semibold tracking-tight">Arquitecto</div>
+                    <div class="font-semibold tracking-tight" data-en="Architect">Arquitecto</div>
                     <div class="text-zinc-600">Universidad Nacional de Colombia – Sede Manizales (2001)</div>
                 </div>
             </div>
             <div class="mt-6 pt-4 border-t border-zinc-100 text-xs text-zinc-500">
-                Ver perfiles completos: 
+                <span data-en="View full profiles:">Ver perfiles completos:</span> 
                 <a href="https://scienti.minciencias.gov.co/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001401677" target="_blank" class="underline hover:text-zinc-700">CvLAC</a> · 
                 <a href="https://orcid.org/0000-0003-2972-7142" target="_blank" class="underline hover:text-zinc-700">ORCID</a> · 
                 <a href="https://scholar.google.com/citations?user=wKGWTW0AAAAJ&hl=es" target="_blank" class="underline hover:text-zinc-700">Google Scholar</a> · 
@@ -358,7 +361,7 @@
         <div class="max-w-5xl mx-auto px-6">
             <div class="max-w-3xl">
                 <h2 class="section-header mb-8 flex items-center gap-x-3">
-                    <span>Líneas de Investigación</span>
+                    <span data-en="Research Lines">Líneas de Investigación</span>
                     <div class="flex-1 minimal-divider"></div>
                 </h2>
                 
@@ -370,8 +373,8 @@
                                 <i class="fa-solid fa-landmark text-sm"></i>
                             </div>
                             <div>
-                                <h3 class="font-semibold text-lg tracking-tight mb-2">Arquitectura vernácula y poblamiento cimarron</h3>
-                                <p class="text-sm text-zinc-600 leading-relaxed">Análisis de la arquitectura vernácula como objeto técnico en los procesos de poblamiento afrocolombiano y cimarron en la cuenca del río Cauca (siglos XVI-XVII). Paisajes culturales, técnicas constructivas y haciendas coloniales cañeras y ganaderas.</p>
+                                <h3 class="font-semibold text-lg tracking-tight mb-2" data-en="Vernacular architecture and maroon settlement">Arquitectura vernácula y poblamiento cimarron</h3>
+                                <p class="text-sm text-zinc-600 leading-relaxed" data-en="Analysis of vernacular architecture as a technical object in Afro-Colombian and maroon settlement processes in the Cauca River basin (16th-17th centuries). Cultural landscapes, construction techniques, and colonial sugarcane and cattle estates.">Análisis de la arquitectura vernácula como objeto técnico en los procesos de poblamiento afrocolombiano y cimarron en la cuenca del río Cauca (siglos XVI-XVII). Paisajes culturales, técnicas constructivas y haciendas coloniales cañeras y ganaderas.</p>
                             </div>
                         </div>
                     </div>
@@ -383,8 +386,8 @@
                                 <i class="fa-solid fa-map text-sm"></i>
                             </div>
                             <div>
-                                <h3 class="font-semibold text-lg tracking-tight mb-2">Morfología urbana y patrones de asentamiento</h3>
-                                <p class="text-sm text-zinc-600 leading-relaxed">Estudio de morfologías urbanas, topografía urbana, patrones de asentamiento y transformaciones territoriales en contextos coloniales y contemporáneos del suroccidente colombiano.</p>
+                                <h3 class="font-semibold text-lg tracking-tight mb-2" data-en="Urban morphology and settlement patterns">Morfología urbana y patrones de asentamiento</h3>
+                                <p class="text-sm text-zinc-600 leading-relaxed" data-en="Study of urban morphologies, urban topography, settlement patterns, and territorial transformations in colonial and contemporary contexts of southwestern Colombia.">Estudio de morfologías urbanas, topografía urbana, patrones de asentamiento y transformaciones territoriales en contextos coloniales y contemporáneos del suroccidente colombiano.</p>
                             </div>
                         </div>
                     </div>
@@ -396,8 +399,8 @@
                                 <i class="fa-solid fa-hard-hat text-sm"></i>
                             </div>
                             <div>
-                                <h3 class="font-semibold text-lg tracking-tight mb-2">Historia de la construcción y tradiciones técnicas</h3>
-                                <p class="text-sm text-zinc-600 leading-relaxed">Investigación sobre tradiciones constructivas vernáculas, actividad sísmica como parámetro de diseño en estructuras de madera del siglo XVII, y sistemas productivos históricos (trapiches, molinos, paisajes mineros).</p>
+                                <h3 class="font-semibold text-lg tracking-tight mb-2" data-en="History of construction and technical traditions">Historia de la construcción y tradiciones técnicas</h3>
+                                <p class="text-sm text-zinc-600 leading-relaxed" data-en="Research on vernacular construction traditions, seismic activity as a design parameter in 17th-century timber structures, and historical productive systems (sugar mills, grain mills, mining landscapes).">Investigación sobre tradiciones constructivas vernáculas, actividad sísmica como parámetro de diseño en estructuras de madera del siglo XVII, y sistemas productivos históricos (trapiches, molinos, paisajes mineros).</p>
                             </div>
                         </div>
                     </div>
@@ -409,8 +412,8 @@
                                 <i class="fa-solid fa-city text-sm"></i>
                             </div>
                             <div>
-                                <h3 class="font-semibold text-lg tracking-tight mb-2">Urbanismo contemporáneo y hábitat</h3>
-                                <p class="text-sm text-zinc-600 leading-relaxed">Análisis de la transformación urbana en Cali y Manizales, informalidad, movilidad sostenible, espacio público y estrategias de diseño urbano. Aplicación de modelos de clusterización y análisis de datos al estudio del hábitat.</p>
+                                <h3 class="font-semibold text-lg tracking-tight mb-2" data-en="Contemporary urbanism and habitat">Urbanismo contemporáneo y hábitat</h3>
+                                <p class="text-sm text-zinc-600 leading-relaxed" data-en="Analysis of urban transformation in Cali and Manizales, informality, sustainable mobility, public space, and urban design strategies. Application of clustering models and data analysis to the study of habitat.">Análisis de la transformación urbana en Cali y Manizales, informalidad, movilidad sostenible, espacio público y estrategias de diseño urbano. Aplicación de modelos de clusterización y análisis de datos al estudio del hábitat.</p>
                             </div>
                         </div>
                     </div>
@@ -424,18 +427,18 @@
         <div class="max-w-3xl">
             <div class="flex items-end justify-between mb-8">
                 <h2 class="section-header flex items-center gap-x-3">
-                    <span>Producción académica reciente</span>
+                    <span data-en="Recent academic output">Producción académica reciente</span>
                     <div class="flex-1 minimal-divider"></div>
                 </h2>
                 <a href="https://scholar.google.com/citations?user=wKGWTW0AAAAJ&hl=es" target="_blank" 
                    class="text-xs font-medium flex items-center gap-x-1.5 text-zinc-500 hover:text-zinc-700 transition-colors">
-                    VER EN GOOGLE SCHOLAR <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
+                    <span data-en="VIEW ON GOOGLE SCHOLAR">VER EN GOOGLE SCHOLAR</span> <i class="fa-solid fa-arrow-up-right-from-square text-[10px]"></i>
                 </a>
             </div>
 
             <!-- Year distribution mini-chart -->
             <div class="mb-8 p-5 rounded-2xl border border-zinc-100 bg-zinc-50/50">
-                <p class="text-xs font-medium tracking-widest text-zinc-400 mb-3">PUBLICACIONES POR AÑO</p>
+                <p class="text-xs font-medium tracking-widest text-zinc-400 mb-3" data-en="PUBLICATIONS BY YEAR">PUBLICACIONES POR AÑO</p>
                 <div class="flex items-end gap-x-3 h-24">
                     <div class="flex-1 flex flex-col items-center gap-y-1.5">
                         <div class="w-full bg-zinc-300 rounded-t" style="height: 25%"></div>
@@ -470,27 +473,27 @@
 
             <!-- Type filters -->
             <div class="flex flex-wrap gap-2 mb-8" id="pub-filters">
-                <button data-filter="all" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-900 text-white transition-colors">Todo</button>
-                <button data-filter="articulo" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-colors">Artículos</button>
-                <button data-filter="capitulo" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-colors">Capítulos / congresos</button>
-                <button data-filter="ponencia" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-colors">Ponencias</button>
+                <button data-filter="all" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-900 text-white transition-colors" data-en="All">Todo</button>
+                <button data-filter="articulo" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-colors" data-en="Articles">Artículos</button>
+                <button data-filter="capitulo" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-colors" data-en="Chapters / conferences">Capítulos / congresos</button>
+                <button data-filter="ponencia" class="filter-btn text-xs font-medium px-3.5 py-1.5 rounded-full bg-zinc-100 text-zinc-600 hover:bg-zinc-200 transition-colors" data-en="Conference papers">Ponencias</button>
             </div>
 
             <!-- Featured publication -->
             <div class="mb-10 p-6 rounded-2xl bg-zinc-900 text-white">
                 <div class="flex items-center gap-x-3 mb-3">
-                    <span class="text-xs px-2.5 py-px bg-emerald-500/20 text-emerald-300 rounded font-medium tracking-wide">MÁS CITADA</span>
+                    <span class="text-xs px-2.5 py-px bg-emerald-500/20 text-emerald-300 rounded font-medium tracking-wide" data-en="MOST CITED">MÁS CITADA</span>
                     <span class="text-xs font-mono tracking-widest text-zinc-400">2020</span>
                 </div>
                 <h3 class="font-semibold text-2xl tracking-tight leading-tight mb-3">
                     Transformaciones urbanas. Crecimiento poblacional y migración en Cali (Colombia)
                 </h3>
-                <p class="text-sm text-zinc-300 mb-4 leading-relaxed">Con D.A. Escobar y J.A. Galindo. Estudia las dinámicas de crecimiento poblacional y migración en Cali y su efecto sobre la transformación urbana reciente de la ciudad — el trabajo con mayor número de citas en la producción del autor según Google Scholar.</p>
+                <p class="text-sm text-zinc-300 mb-4 leading-relaxed" data-en="With D.A. Escobar and J.A. Galindo. Studies population growth and migration dynamics in Cali and their effect on the city's recent urban transformation — the author's most-cited work according to Google Scholar.">Con D.A. Escobar y J.A. Galindo. Estudia las dinámicas de crecimiento poblacional y migración en Cali y su efecto sobre la transformación urbana reciente de la ciudad — el trabajo con mayor número de citas en la producción del autor según Google Scholar.</p>
                 <a href="https://scholar.google.com/scholar?q=Transformaciones+urbanas+Crecimiento+poblacional+migraci%C3%B3n+Cali+Arteaga" target="_blank" class="inline-flex items-center gap-x-1.5 text-sm font-medium text-white hover:text-zinc-300 transition-colors">
-                    Ver en Google Scholar <i class="fa-solid fa-arrow-right text-xs"></i>
+                    <span data-en="View on Google Scholar">Ver en Google Scholar</span> <i class="fa-solid fa-arrow-right text-xs"></i>
                 </a>
                 <button class="cite-btn mt-3 flex items-center gap-x-1.5 text-xs text-zinc-400 hover:text-white transition-colors" data-cite="Arteaga Botero, G. A., Escobar, D. A., & Galindo, J. A. (2020). Transformaciones urbanas. Crecimiento poblacional y migración en Cali (Colombia). Revista Espacios.">
-                    <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                    <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                 </button>
             </div>
             
@@ -500,8 +503,8 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-x-3 mb-1">
                             <span class="text-xs font-mono tracking-widest text-zinc-400">2025</span>
-                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded">ARTÍCULO</span>
-                            <span class="text-xs px-2.5 py-px bg-amber-50 text-amber-700 rounded">Vernácula y cimarrón</span>
+                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded" data-en="ARTICLE">ARTÍCULO</span>
+                            <span class="text-xs px-2.5 py-px bg-amber-50 text-amber-700 rounded" data-en="Vernacular &amp; maroon">Vernácula y cimarrón</span>
                         </div>
                         <h3 class="font-semibold text-xl tracking-tight leading-tight mb-2 group-hover:text-zinc-700 transition-colors">
                             La arquitectura vernácula como un objeto técnico en los procesos de poblamiento cimarrón: Paisajes culturales y técnicas constructivas en la cuenca del río Cauca, Colombia (siglos XVI-XVII)
@@ -509,7 +512,7 @@
                         <p class="text-sm text-zinc-600 mb-3">Gustavo Adolfo Arteaga Botero</p>
                         <p class="text-sm text-zinc-500">Anales de Investigación en Arquitectura, 15(2). DOI: <a href="https://doi.org/10.18861/ania.2025.15.2.4162" target="_blank" class="underline decoration-zinc-300 hover:decoration-zinc-500">10.18861/ania.2025.15.2.4162</a></p>
                         <button class="cite-btn mt-2 inline-flex items-center gap-x-1.5 text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Arteaga Botero, G. A. (2025). La arquitectura vernácula como un objeto técnico en los procesos de poblamiento cimarrón: Paisajes culturales y técnicas constructivas en la cuenca del río Cauca, Colombia (siglos XVI-XVII). Anales de Investigación en Arquitectura, 15(2). https://doi.org/10.18861/ania.2025.15.2.4162">
-                            <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                            <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                         </button>
                     </div>
                 </div>
@@ -521,18 +524,18 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-x-3 mb-1">
                             <span class="text-xs font-mono tracking-widest text-zinc-400">2024</span>
-                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded">CAPÍTULO / CONGRESO</span>
-                            <span class="text-xs px-2.5 py-px bg-purple-50 text-purple-700 rounded">Historia de la construcción</span>
-                            <span class="text-xs px-2.5 py-px bg-emerald-100 text-emerald-700 rounded">1 cita</span>
+                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded" data-en="CHAPTER / CONFERENCE">CAPÍTULO / CONGRESO</span>
+                            <span class="text-xs px-2.5 py-px bg-purple-50 text-purple-700 rounded" data-en="History of construction">Historia de la construcción</span>
+                            <span class="text-xs px-2.5 py-px bg-emerald-100 text-emerald-700 rounded" data-en="1 citation">1 cita</span>
                         </div>
                         <h3 class="font-semibold text-xl tracking-tight leading-tight mb-2 group-hover:text-zinc-700 transition-colors">
                             Arquitecturas vernáculas colombianas, la actividad sísmica como parámetro de diseño de estructuras de madera en el siglo XVII
                         </h3>
                         <p class="text-sm text-zinc-600 mb-3">Gustavo Adolfo Arteaga Botero</p>
                         <p class="text-sm text-zinc-500">Actas del XIII Congreso Nacional y V Congreso Internacional Hispanoamericano de Historia de la Construcción, Santo Domingo, mar. 2024, p. 37-48.</p>
-                        <a href="https://dialnet.unirioja.es/servlet/libro?codigo=984817" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block">Ver en Dialnet →</a>
+                        <a href="https://dialnet.unirioja.es/servlet/libro?codigo=984817" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block"><span data-en="View on Dialnet →">Ver en Dialnet →</span></a>
                         <button class="cite-btn mt-2 block text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Arteaga Botero, G. A. (2024). Arquitecturas vernáculas colombianas, la actividad sísmica como parámetro de diseño de estructuras de madera en el siglo XVII. En Actas del XIII Congreso Nacional y V Congreso Internacional Hispanoamericano de Historia de la Construcción (pp. 37-48). Santo Domingo.">
-                            <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                            <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                         </button>
                     </div>
                 </div>
@@ -544,17 +547,17 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-x-3 mb-1">
                             <span class="text-xs font-mono tracking-widest text-zinc-400">2024</span>
-                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded">CAPÍTULO / CONGRESO</span>
-                            <span class="text-xs px-2.5 py-px bg-purple-50 text-purple-700 rounded">Historia de la construcción</span>
+                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded" data-en="CHAPTER / CONFERENCE">CAPÍTULO / CONGRESO</span>
+                            <span class="text-xs px-2.5 py-px bg-purple-50 text-purple-700 rounded" data-en="History of construction">Historia de la construcción</span>
                         </div>
                         <h3 class="font-semibold text-xl tracking-tight leading-tight mb-2 group-hover:text-zinc-700 transition-colors">
                             Avances del catálogo digital de edificaciones patrimoniales de tierra en Colombia
                         </h3>
                         <p class="text-sm text-zinc-600 mb-3">E. Acero, J. C. Rivera, E. Zambrano, C. A. Díaz, Gustavo Adolfo Arteaga Botero, J. Higuera Reyes, C. López Pérez</p>
                         <p class="text-sm text-zinc-500">Memorias del 22º Seminario Iberoamericano de Arquitectura y Construcción con Tierra (SIACOT), La Serena, Chile, nov. 2024, p. 396-406.</p>
-                        <a href="https://revistas.udelar.edu.uy/OJS/index.php/msiacot/article/view/2982" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block">Ver artículo →</a>
+                        <a href="https://revistas.udelar.edu.uy/OJS/index.php/msiacot/article/view/2982" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block"><span data-en="View article →">Ver artículo →</span></a>
                         <button class="cite-btn mt-2 block text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Acero, E., Rivera, J. C., Zambrano, E., Díaz, C. A., Arteaga Botero, G. A., Higuera Reyes, J., & López Pérez, C. (2024). Avances del catálogo digital de edificaciones patrimoniales de tierra en Colombia. Memorias del 22º Seminario Iberoamericano de Arquitectura y Construcción con Tierra (SIACOT), 396-406.">
-                            <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                            <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                         </button>
                     </div>
                 </div>
@@ -566,8 +569,8 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-x-3 mb-1">
                             <span class="text-xs font-mono tracking-widest text-zinc-400">2024</span>
-                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded">ARTÍCULO</span>
-                            <span class="text-xs px-2.5 py-px bg-emerald-50 text-emerald-700 rounded">Urbanismo y hábitat</span>
+                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded" data-en="ARTICLE">ARTÍCULO</span>
+                            <span class="text-xs px-2.5 py-px bg-emerald-50 text-emerald-700 rounded" data-en="Urbanism &amp; habitat">Urbanismo y hábitat</span>
                         </div>
                         <h3 class="font-semibold text-xl tracking-tight leading-tight mb-2 group-hover:text-zinc-700 transition-colors">
                             Construyendo entornos saludables en Cali: Estrategias para fortalecer el tejido social y la equidad
@@ -575,7 +578,7 @@
                         <p class="text-sm text-zinc-600 mb-3">John Fredy Bustos López, Gustavo Adolfo Arteaga Botero</p>
                         <p class="text-sm text-zinc-500">Revista Boletín Redipe, 13(1), 2024, p. 138-149. DOI: <a href="https://doi.org/10.36260/rbr.v13i1.2072" target="_blank" class="underline decoration-zinc-300 hover:decoration-zinc-500">10.36260/rbr.v13i1.2072</a></p>
                         <button class="cite-btn mt-2 inline-flex items-center gap-x-1.5 text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Bustos López, J. F., & Arteaga Botero, G. A. (2024). Construyendo entornos saludables en Cali: Estrategias para fortalecer el tejido social y la equidad. Revista Boletín Redipe, 13(1), 138-149. https://doi.org/10.36260/rbr.v13i1.2072">
-                            <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                            <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                         </button>
                     </div>
                 </div>
@@ -587,17 +590,17 @@
                     <div class="flex-1">
                         <div class="flex items-center gap-x-3 mb-1">
                             <span class="text-xs font-mono tracking-widest text-zinc-400">2019</span>
-                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded">CONGRESO</span>
-                            <span class="text-xs px-2.5 py-px bg-blue-50 text-blue-700 rounded">Morfología urbana</span>
+                            <span class="text-xs px-2.5 py-px bg-zinc-100 text-zinc-600 rounded" data-en="CONFERENCE">CONGRESO</span>
+                            <span class="text-xs px-2.5 py-px bg-blue-50 text-blue-700 rounded" data-en="Urban morphology">Morfología urbana</span>
                         </div>
                         <h3 class="font-semibold text-xl tracking-tight leading-tight mb-2 group-hover:text-zinc-700 transition-colors">
                             Análisis de patrones morfológicos en conjunto de vivienda palafítica: Vivienda vernácula en el corregimiento del Morro (Nueva Venecia), municipio de Sitionuevo, Magdalena-Colombia
                         </h3>
                         <p class="text-sm text-zinc-600 mb-3">Con C. T. Lopez Perez y H. Medina Garzon</p>
                         <p class="text-sm text-zinc-500">XI Seminario Internacional de Investigación en Urbanismo, Barcelona–Santiago de Chile.</p>
-                        <a href="https://scholar.google.com/scholar?q=An%C3%A1lisis+de+patrones+morfol%C3%B3gicos+vivienda+palaf%C3%ADtica+Arteaga" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block">Ver en Google Scholar →</a>
+                        <a href="https://scholar.google.com/scholar?q=An%C3%A1lisis+de+patrones+morfol%C3%B3gicos+vivienda+palaf%C3%ADtica+Arteaga" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block"><span data-en="View on Google Scholar →">Ver en Google Scholar →</span></a>
                         <button class="cite-btn mt-2 block text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Arteaga Botero, G. A., Lopez Perez, C. T., & Medina Garzon, H. (2019). Análisis de patrones morfológicos en conjunto de vivienda palafítica: Vivienda vernácula en el corregimiento del Morro (Nueva Venecia), municipio de Sitionuevo, Magdalena-Colombia. XI Seminario Internacional de Investigación en Urbanismo, Barcelona–Santiago de Chile.">
-                            <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                            <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                         </button>
                     </div>
                 </div>
@@ -610,16 +613,16 @@
                         <div class="flex items-center gap-x-3 mb-1">
                             <span class="text-xs font-mono tracking-widest text-zinc-400">2018</span>
                             <span class="text-xs px-2.5 py-px bg-blue-100 text-blue-700 rounded">ENGLISH</span>
-                            <span class="text-xs px-2.5 py-px bg-emerald-50 text-emerald-700 rounded">Urbanismo y hábitat</span>
+                            <span class="text-xs px-2.5 py-px bg-emerald-50 text-emerald-700 rounded" data-en="Urbanism &amp; habitat">Urbanismo y hábitat</span>
                         </div>
                         <h3 class="font-semibold text-xl tracking-tight leading-tight mb-2 group-hover:text-zinc-700 transition-colors">
                             Parameters for Public Space Architecture. Informal Commerce Dynamics, as an Opportunity to Stimulate Urban Scenarios. Case Study Cali-Colombia
                         </h3>
                         <p class="text-sm text-zinc-600 mb-3">Gustavo Adolfo Arteaga Botero</p>
                         <p class="text-sm text-zinc-500">Article in English with international visibility on public space and informal commerce in Cali.</p>
-                        <a href="https://scholar.google.com/scholar?q=Parameters+for+Public+Space+Architecture+Informal+Commerce+Arteaga" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block">Ver en Google Scholar →</a>
+                        <a href="https://scholar.google.com/scholar?q=Parameters+for+Public+Space+Architecture+Informal+Commerce+Arteaga" target="_blank" class="text-xs text-zinc-600 hover:text-black underline mt-1 inline-block"><span data-en="View on Google Scholar →">Ver en Google Scholar →</span></a>
                         <button class="cite-btn mt-2 block text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Arteaga Botero, G. A. (2018). Parameters for Public Space Architecture. Informal Commerce Dynamics, as an Opportunity to Stimulate Urban Scenarios. Case Study Cali-Colombia.">
-                            <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                            <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                         </button>
                     </div>
                 </div>
@@ -628,11 +631,11 @@
             <div class="pt-4 flex flex-wrap items-center gap-x-6 gap-y-3">
                 <a href="https://orcid.org/0000-0003-2972-7142" target="_blank"
                    class="inline-flex items-center text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors group">
-                    Ver toda la producción académica en ORCID 
+                    <span data-en="View full academic output on ORCID">Ver toda la producción académica en ORCID</span> 
                     <i class="fa-solid fa-arrow-right ml-2 group-hover:translate-x-0.5 transition-transform"></i>
                 </a>
                 <button id="download-bibtex" class="inline-flex items-center gap-x-2 text-sm font-medium text-zinc-600 hover:text-zinc-900 transition-colors">
-                    <i class="fa-solid fa-download"></i> Descargar referencias (.bib)
+                    <i class="fa-solid fa-download"></i> <span data-en="Download references (.bib)">Descargar referencias (.bib)</span>
                 </button>
             </div>
         </div>
@@ -716,7 +719,7 @@
                     <h3 class="font-semibold text-lg tracking-tight">Análisis de indicadores de densidad en el municipio de Manizales, Colombia</h3>
                     <p class="text-sm text-zinc-600">Estudio sobre indicadores de densidad urbana en Manizales y sus implicaciones para la planificación territorial.</p>
                     <p class="text-xs text-zinc-500 mt-1">Instituto de Estudios Urbanos • 
-                    <a href="https://scholar.google.com/scholar?q=An%C3%A1lisis+de+indicadores+de+densidad+Manizales+Arteaga" target="_blank" class="underline">Ver en Google Scholar →</a></p>
+                    <a href="https://scholar.google.com/scholar?q=An%C3%A1lisis+de+indicadores+de+densidad+Manizales+Arteaga" target="_blank" class="underline"><span data-en="View on Google Scholar →">Ver en Google Scholar →</span></a></p>
                 </div>
 
                 <!-- Nota 7 -->
@@ -740,7 +743,7 @@
                     <h3 class="font-semibold text-lg tracking-tight">Balance de la medida de pico y placa ante el incremento de motocicletas en las ciudades colombianas: una mirada desde los estudios urbanos</h3>
                     <p class="text-sm text-zinc-600">Análisis sobre el impacto de las medidas de pico y placa en el contexto del crecimiento de motocicletas en ciudades colombianas, desde la perspectiva de los estudios urbanos.</p>
                     <p class="text-xs text-zinc-500 mt-1">Instituto de Estudios Urbanos • 
-                    <a href="https://ieu.unal.edu.co/divulgacion-academica/balance-de-la-medida-de-pico-y-placa-ante-el-incremento-de-motocicletas-en-las-ciudades-colombianas-una-mirada-desde-los-estudios-urbanos/" target="_blank" class="underline">Ver artículo →</a></p>
+                    <a href="https://ieu.unal.edu.co/divulgacion-academica/balance-de-la-medida-de-pico-y-placa-ante-el-incremento-de-motocicletas-en-las-ciudades-colombianas-una-mirada-desde-los-estudios-urbanos/" target="_blank" class="underline"><span data-en="View article →">Ver artículo →</span></a></p>
                 </div>
             </div>
         </div>
@@ -750,7 +753,7 @@
     <section class="max-w-5xl mx-auto px-6 py-16">
         <div class="max-w-3xl">
             <h2 class="section-header mb-6 flex items-center gap-x-3">
-                <span>Libros publicados</span>
+                <span data-en="Published books">Libros publicados</span>
                 <div class="flex-1 minimal-divider"></div>
             </h2>
 
@@ -758,20 +761,20 @@
                 <div>
                     <strong>La plaza de mercado Cristóbal Colón o Santa Elena, en Cali (Colombia)</strong><br>
                     <span class="text-zinc-600">Jorge Galindo Díaz, Gustavo Adolfo Arteaga Botero • Kliczkowski publisher, Buenos Aires, 2024 • 117 p.</span><br>
-                    <a href="https://perfilesycapacidades.javeriana.edu.co/es/publications/la-plaza-de-mercado-crist%C3%B3bal-col%C3%B3n-o-santa-elena-en-cali-colombi" target="_blank" class="text-xs text-zinc-600 hover:text-black underline">Ficha de la publicación</a>
+                    <a href="https://perfilesycapacidades.javeriana.edu.co/es/publications/la-plaza-de-mercado-crist%C3%B3bal-col%C3%B3n-o-santa-elena-en-cali-colombi" target="_blank" class="text-xs text-zinc-600 hover:text-black underline" data-en="Publication record">Ficha de la publicación</a>
                     <button class="cite-btn mt-1 block text-xs text-zinc-500 hover:text-zinc-900 transition-colors" data-cite="Galindo Díaz, J., & Arteaga Botero, G. A. (2024). La plaza de mercado Cristóbal Colón o Santa Elena, en Cali (Colombia). Kliczkowski publisher.">
-                        <i class="fa-regular fa-copy"></i> Copiar cita (APA)
+                        <i class="fa-regular fa-copy"></i> <span data-en="Copy citation (APA)">Copiar cita (APA)</span>
                     </button>
                 </div>
                 <div>
                     <strong>Hábitat palafítico: vida acuática en el Caribe colombiano</strong><br>
                     <span class="text-zinc-600">Gustavo Adolfo Arteaga Botero • Pontificia Universidad Javeriana, 2022</span><br>
-                    <a href="https://repository.javeriana.edu.co" target="_blank" class="text-xs text-zinc-600 hover:text-black underline">Repositorio Javeriana</a> · 
+                    <a href="https://repository.javeriana.edu.co" target="_blank" class="text-xs text-zinc-600 hover:text-black underline" data-en="Javeriana Repository">Repositorio Javeriana</a> · 
                     <a href="https://scholar.google.com/scholar?q=H%C3%A1bitat+palaf%C3%ADtico+Arteaga" target="_blank" class="text-xs text-zinc-600 hover:text-black underline">Google Scholar</a>
                 </div>
                 <div>
                     <strong>Los otros territorios de las colonizaciones no europeas en la perspectiva de los estudios de Jacques Aprile</strong><br>
-                    <span class="text-zinc-600">Capítulo en: Trayectorias y espacios • Editorial Universidad Icesi / Javeriana, 2021</span><br>
+                    <span class="text-zinc-600" data-en="Chapter in: Trajectories and Spaces • Editorial Universidad Icesi / Javeriana, 2021">Capítulo en: Trayectorias y espacios • Editorial Universidad Icesi / Javeriana, 2021</span><br>
                     <a href="https://scholar.google.com/scholar?q=Los+otros+territorios+de+las+colonizaciones+no+europeas+Arteaga" target="_blank" class="text-xs text-zinc-600 hover:text-black underline">Google Scholar</a>
                 </div>
                 <div>
@@ -793,19 +796,19 @@
         <div class="max-w-5xl mx-auto px-6">
             <div class="max-w-3xl">
                 <h2 class="section-header mb-8 flex items-center gap-x-3">
-                    <span>Docencia y Dirección Académica</span>
+                    <span data-en="Teaching and Academic Leadership">Docencia y Dirección Académica</span>
                     <div class="flex-1 minimal-divider"></div>
                 </h2>
                 
                 <div class="space-y-8 academic-text">
                     <div>
-                        <h3 class="font-semibold tracking-tight mb-3">Profesor Titular de tiempo completo</h3>
-                        <p class="text-zinc-600">Universidad de San Buenaventura Cali, Facultad de Arquitectura, Arte y Diseño. Docencia e investigación en morfología urbana, historia de la construcción, arquitectura vernácula y dinámicas territoriales del suroccidente colombiano.</p>
+                        <h3 class="font-semibold tracking-tight mb-3" data-en="Full-time Full Professor">Profesor Titular de tiempo completo</h3>
+                        <p class="text-zinc-600" data-en="Universidad de San Buenaventura Cali, Faculty of Architecture, Art and Design. Teaching and research in urban morphology, history of construction, vernacular architecture, and territorial dynamics of southwestern Colombia.">Universidad de San Buenaventura Cali, Facultad de Arquitectura, Arte y Diseño. Docencia e investigación en morfología urbana, historia de la construcción, arquitectura vernácula y dinámicas territoriales del suroccidente colombiano.</p>
                     </div>
                     
                     <div>
-                        <h3 class="font-semibold tracking-tight mb-3">Dirección de tesis y seminarios</h3>
-                        <p class="text-zinc-600">Director de numerosos trabajos de grado de pregrado y maestría en temas como arquitectura de refugio para emergencias, espacios para la neurodiversidad, análisis de patrones urbanos mediante datos, y estudios morfológicos del hábitat. Desarrollo de seminarios electivos en diseños urbanos y tradiciones constructivas sostenibles.</p>
+                        <h3 class="font-semibold tracking-tight mb-3" data-en="Thesis and seminar supervision">Dirección de tesis y seminarios</h3>
+                        <p class="text-zinc-600" data-en="Supervisor of numerous undergraduate and master's theses on topics such as emergency shelter architecture, spaces for neurodiversity, data-driven urban pattern analysis, and morphological studies of habitat. Development of elective seminars on urban design and sustainable construction traditions.">Director de numerosos trabajos de grado de pregrado y maestría en temas como arquitectura de refugio para emergencias, espacios para la neurodiversidad, análisis de patrones urbanos mediante datos, y estudios morfológicos del hábitat. Desarrollo de seminarios electivos en diseños urbanos y tradiciones constructivas sostenibles.</p>
                     </div>
                 </div>
             </div>
@@ -816,9 +819,9 @@
     <footer class="border-t border-zinc-100 py-8">
         <div class="max-w-5xl mx-auto px-6 text-center">
             <div class="flex flex-col md:flex-row items-center justify-center gap-x-4 gap-y-2 text-xs text-zinc-400">
-                <div>© 2026 Gustavo Adolfo Arteaga Botero</div>
+                <div data-en="© 2026 Gustavo Adolfo Arteaga Botero">© 2026 Gustavo Adolfo Arteaga Botero</div>
                 <div class="hidden md:block">•</div>
-                <div>Actualizado: Julio 2026</div>
+                <div data-en="Updated: July 2026">Actualizado: Julio 2026</div>
             </div>
         </div>
     </footer>
@@ -921,8 +924,39 @@
                 const text = btn.getAttribute('data-cite');
                 navigator.clipboard.writeText(text).then(() => {
                     const original = btn.innerHTML;
-                    btn.innerHTML = '<i class="fa-solid fa-check"></i> Cita copiada';
+                    const isEN = document.documentElement.lang === 'en';
+                    btn.innerHTML = isEN ? '<i class="fa-solid fa-check"></i> Citation copied' : '<i class="fa-solid fa-check"></i> Cita copiada';
                     setTimeout(() => { btn.innerHTML = original; }, 2000);
+                });
+            });
+        })();
+
+        // ES/EN language toggle
+        (function() {
+            const toggleBtn = document.getElementById('lang-toggle');
+            if (!toggleBtn) return;
+            const nodes = document.querySelectorAll('[data-en]');
+            const originals = new Map();
+            nodes.forEach(el => originals.set(el, el.innerHTML));
+            let isEnglish = false;
+
+            const metaMap = [
+                {sel: 'meta[name="description"]', es: document.querySelector('meta[name="description"]')?.content, en: "Gustavo Adolfo Arteaga Botero, Ph.D. Architect and Full Professor at Universidad de San Buenaventura Cali. Researcher in vernacular architecture, maroon settlement, urban morphology, and history of construction in southwestern Colombia."},
+                {sel: 'meta[property="og:description"]', es: document.querySelector('meta[property="og:description"]')?.content, en: "Researcher in vernacular architecture, maroon settlement, urban morphology, and history of construction. Full Professor, Universidad de San Buenaventura Cali."}
+            ];
+
+            toggleBtn.addEventListener('click', () => {
+                isEnglish = !isEnglish;
+                nodes.forEach(el => {
+                    el.innerHTML = isEnglish ? el.getAttribute('data-en') : originals.get(el);
+                });
+                document.documentElement.lang = isEnglish ? 'en' : 'es';
+                toggleBtn.innerHTML = isEnglish
+                    ? '<i class="fa-solid fa-globe text-zinc-400"></i> ES'
+                    : '<i class="fa-solid fa-globe text-zinc-400"></i> EN';
+                metaMap.forEach(m => {
+                    const el = document.querySelector(m.sel);
+                    if (el) el.content = isEnglish ? m.en : m.es;
                 });
             });
         })();
